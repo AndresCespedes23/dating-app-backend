@@ -1,0 +1,25 @@
+{
+  "name": "dating-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "4.17.13",
+    "@types/node": "^18.0.0",
+    "typescript": "4.7.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "4.18.1",
+    "mongoose": "6.3.8",
+    "nodemon": "2.0.16"
+  }
+}
